@@ -1,11 +1,12 @@
 
 import React from 'react'
-import BooksList from '../booksList/BooksList'
+
+import Contacts from '../contacts/Contacts';
 
 function Main() {
     return (
         <div>
-           <BooksList/>
+           <Contacts name="Patrikas" email="patrikas@gmail.com"/>
         </div>
     )
 }
